@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* min-width: 830px; */
+    /* background-image: linear-gradient(#cc06cd, purple); */
+    font-family: 'Edu SA Beginner', cursive;
+    z-index: -1;
+    min-width: 765px;
+    padding: 3em 0;
+}
+
+.main {
+    /* border: 2px solid red; */
+    height: 80%;
+    min-height: 600px;
+    width: 50%;
+    min-width: 700px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px 2px gray;
+    text-align: center;
+}
+
+.main>h1 {
+    margin: 2em auto;
+}
+
+.main>label {
+    width: 21.6%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: block;
+    text-align: left;
+}
+
+.main>h5 {
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    width: 35%;
+    margin-left: 22em;
+    text-align: right;
+}
+
+.main>input {
+    /* border: 2px solid red; */
+    width: 40%;
+    padding: .5em;
+    margin-left: 9.6em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    font-family: 'Edu SA Beginner', cursive;
+    box-shadow: 1px 1px 4px gray;
+    border: none;
+}
+
+.btn {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #1aebb6;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 19px;
+    padding: .2em;
+    margin-top: 10em;
+    margin-left: 7em;
+    box-shadow: 1px 1px 4px gray;
+    border: none;
+    cursor: pointer;
+}
+
+.shade {
+    /* border: 2px solid teal; */
+    background-color: #1aebb6;
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #1aebb6;
+}
+
+.signup {
+    margin: 0 auto;
+    width: 30%;
+    margin-left: 19.5em;
+    margin-top: .5em;
+}
